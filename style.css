@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+*{
+	font-family: 'Quicksand', sans-serif;
+	background-color: #005066;
+	color:#e4eff0;
+}
+#container {
+	padding-top: 50px;
+	margin: auto;
+  	width: 40%;
+
+}
+.title{
+	float: clear;
+}
+#cityName {
+	float:left;
+	margin-bottom: 0;
+}
+#day{
+	margin-top: 7px;
+	float:right;
+
+}
+#input{
+
+	display:flex;
+}
+input[type="text"]{
+	width: 85%;
+	border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#78cce2;
+    font-size: 16px;
+    margin-bottom:  20px;
+    flex: 1;
+}
+
+::placeholder{
+	color:#4e7988;
+}
+button{
+	margin-left:5px;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    padding: 8px;
+}
+button:hover{
+	background-color: white;
+	color:#4e7988;
+}
+#details{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#tempBox{
+	width:55%;
+	float:left;
+}
+#otherDetails{
+	float: right;
+	text-align: right;
+	opacity: 0.5;
+}
+#temperature {
+	display: inline-block;
+	font-size: 50px;
+	vertical-align: top;
+	margin-left: 15px;
+
+}
+#icon {
+	float: left;
+	height:11%;
+}
+
+#changeUnit {
+	padding-left: 3px;
+	display: inline-block;
+	
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+}
+#change, #change1 {
+	font-size: 20px;
+	text-decoration: none;
+	padding: 3px;
+}
+
+.active{
+	background-color: white;
+	color:#4e7988;
+	border-radius: 5px;
+}
+
+.inline {
+	display: inline-block;
+	text-align: center;
+	width:19%;
+
+}
+#container2{
+	text-align: center;
+	width: 100%;
+}
+
+.day{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#icon2, #icon3, #icon4, #icon5, #icon6{
+	height:6%;
+}
+#hi1, #hi2, #hi3, #hi4, #hi5 {
+	font-size:20px;
+	opacity: 0.5;
+}
+
+@media only screen and (max-width: 1050px) {
+	#container{
+		width:60%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	#container{
+		width:70%;
+	}
+}
+@media only screen and (max-width: 560px) {
+	#container{
+		width:100%;
+	}
+}

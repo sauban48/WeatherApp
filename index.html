@@ -1,0 +1,69 @@
+
+<html>
+	<head>
+		<script src="style.css"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta-charset="UTF-8">
+		<title> Check The Weather </title>
+	</head>
+	<body>
+		<div id="container"> 
+			<div id="input">
+				<input type="text" id="city" placeholder="Enter City Name, Country Code"required>
+				<button onclick="search()"> Search</button>
+			</div>
+			<div class="title">
+				<h1><div id="cityName"> </div></h1>
+				<h2><div id="day"> </div><h2>
+		    </div>
+
+		    <br><br><hr>
+		    <div id="details">
+		    	<div id="tempBox">
+				    <div id="img1"> <img id="icon" src=""></div>
+				    <div id="temperature"></div>
+					<div id="changeUnit">
+						<a href="#" onclick="getCelsius()" id="change1" class="active">&deg;C</a>
+						<a href="#" onclick="getFaren()" id="change">&deg;F</a>
+					</div>
+				</div>
+				<div id="otherDetails">
+					<div id="weatherType">	</div>
+					<div id="humidity"></div>
+					<div id="wind"></div>
+				</div>
+			</div>
+			<br><br><br><br><br><br>
+			<div id="container2">
+				<div class="inline">
+					<div id="day1" class="day"></div>
+					<div id="image1"><img id="icon2" src=""></div>
+					<div id="hi1"></div>				
+				</div>
+				<div class="inline">
+					<div id="day2" class="day"></div>
+					<div id="image2"><img id="icon3" src=""></div>
+					<div id="hi2"></div>				
+				</div>
+				<div class="inline">
+					<div id="day3" class="day"></div>
+					<div id="image3"><img id="icon4" src=""></div>
+					<div id="hi3"></div>				
+				</div>
+				<div class="inline">
+					<div id="day4" class="day"></div>
+					<div id="image4"><img id="icon5" src=""></div>
+					<div id="hi4"></div>
+				</div>
+				<div class="inline">
+					<div id="day5" class="day"></div>
+					<div id="image5"><img id="icon6" src=""></div>
+					<div id="hi5"></div>
+				</div>
+			</div>			
+			<div id="test"> </div>	
+ 		</div>
+ 		<script type="text/javascript" src="script.js"></script>
+	</body>
+
+</html>
